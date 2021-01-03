@@ -9,6 +9,9 @@ app.get('/', (request, response) => {
 });
 connectDB();
 
+//  Init middleware
+app.use(express.json({ extended: false }));
+
 //  Define routes
 app.use('/api/users', require('./routes/api/users'));
 app.use('/api/auth', require('./routes/api/auth'));

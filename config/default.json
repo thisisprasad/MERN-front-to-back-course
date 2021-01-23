@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://mern_stack:mern_stack@cluster0.yqcig.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://mern_stack:mern_stack@cluster0.yqcig.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }

@@ -4,13 +4,9 @@ import {
     REGISTER_SUCCESS,
     REGISTER_FAIL,
     USER_LOADED,
-<<<<<<< HEAD
     AUTH_ERROR,
     LOGIN_SUCCESS,
     LOGIN_FAIL
-=======
-    AUTH_ERROR
->>>>>>> b0c90ca15a797b06528b107badcd4fd31a31fa39
 } from './types';
 import setAuthToken from '../utils/setAuthToken';
 
